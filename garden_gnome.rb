@@ -1,12 +1,5 @@
 # Code your instances here
 class GardenGnome
-  def initialize(name, age, gluten_allergy, personality, hat_color)
-    @name = name
-    @age = age 
-    @gluten_allergy = gluten_allergy
-    @personality = personality
-    @hat_color = hat_color
-  end
   def name
     @name
   end
@@ -35,13 +28,13 @@ class GardenGnome
     @hat_color = new_hat_color
   end
   def gnaw
-    puts "Gnawing on a tre!!!"
+    return "Gnawing on a tre!!!"
   end
   def shout
-    puts "GNARLY!!!"
+    return "GNARLY!!!"
   end
 end
 
 def introduce_self
-  puts "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!"
+  return "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!"
 end
