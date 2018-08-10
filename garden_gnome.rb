@@ -31,4 +31,6 @@ class GardenGnome
   def hat_color= (new_hat_color)
     @hat_color = new_hat_color
   end
+  def gnaw
+    returns
 end
