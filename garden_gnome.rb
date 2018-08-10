@@ -31,13 +31,4 @@ class GardenGnome
   def hat_color= (new_hat_color)
     @hat_color = new_hat_color
   end
-  def gnaw
-    return "Gnawing on a tre!!!"
-  end
-  def shout
-    return "GNARLY!!!"
-  end
-end
-def introduce_self
-  return "Hello humans, my name is #{name}, I am #{age} years old, and you'll rue the day you crossed me!"
 end
